@@ -1,0 +1,53 @@
+.row1{
+	padding:32px 24px;
+
+}
+.row1btn{
+	padding: 8px auto;
+	margin-top: 40px;
+}
+.row1col2h1{
+	padding-top: 70px;
+}
+#row1{
+	background-color: hsl(0,0%,80%);
+}
+#row2img{
+	padding: 32px 24px;
+}
+#row2h5 {
+	padding:0px 24px 24px 24px;
+}
+#row2h1{
+	padding:0px 24px 24px 24px;
+}
+#row2h6{
+	padding: 0px 24px 32px 24px;
+}
+#rhsr1{
+	padding: 32px 24px 24px 0px;
+}
+#row2col8{
+	padding-top: 35px;
+}
+#row2col3{
+	background-color: hsl(0,0%,80%);
+	padding-top: 16px;
+}
+.row2col8r3{
+	padding: 16px;
+}
+#row2r2img{
+	padding-bottom: 25px;
+}
+#row3r1col1{
+	padding: 40px 16px 16px 72px;
+}
+
+#row3r1col2{
+	padding: 40px 16px 16px 16px;
+}
+
+#row3r1col2{
+	padding: 40px 72px 16px 16px;
+}
