@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="E:\My_projects\Colmaracademy\style.css">
+  <link rel="stylesheet" href="file:///E:\My_projects\Colmaracademy\style.css">
 	<title>Colmar Academy</title>
 
 </head>
@@ -13,12 +13,12 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col">
+      <div height="64px" class="col">
         <!-- Navbar Component -->
 
-          <nav class="navbar-light bg-white navbar navbar-expand-sm height-64px">
+          <nav style="padding-top: 24px;" class="navbar-light bg-white navbar navbar-expand-sm height-64px">
             <a class="navbar-brand text-secondary" href="#">
-            <img src="file:///E:/My_projects/Colmaracademy/capstone_colmar_assets/images/ic-logo.svg" height="60px"   width="70px">COLMARACADEMY</a>
+            <img  src="file:///E:/My_projects/Colmaracademy/capstone_colmar_assets/images/ic-logo.svg" height="60px"   width="70px"><span class="font-weight-bold">COLMAR</span><span>ACADEMY</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -49,11 +49,11 @@
           <!--end of row-->
             <!--row1-->
     <div class="row" id="row1">
-      <div class="col-7" >
+      <div class="col-sm-7 col-md-7" >
         <img src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\banner.jpg" class="row1" height="450px" width="730px">
       </div>  
 
-      <div class="col-5 display-5">
+      <div class="col-sm-5 col-md-5 display-5">
         <h1 class="row1col2h1 font-weight-bold">Learn something new everyday</h1>
         <h3>Lorem ipsum dollar sit amet, consectetur adipiscing elit.</h3>
         <button class="row1btn btn-dark btn-block btn-lg" type="button" class="btn">Start here</button>
@@ -63,7 +63,7 @@
 
       <!--row2-->
       <div class="row bg-white">
-        <div class="col-7">
+        <div class="col-sm-7 col-md-7">
         <img src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\information-main.jpg" id="row2img" height="400px" width="730px">
         <h1 class="font-weight-bold" id="row2h1">It doesn't hurt to keep practicing</h1>
         <h5 class="text-secondary" id="row2h5">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula"</h5>
@@ -73,7 +73,7 @@
 
       </div>
 
-      <div class="col-5">
+      <div class="col-sm-5 col-md-5" >
         <div class="row" id="rhsr1">
             <div class="col-4">
              <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\information-orientation.jpg" height=auto width="150px">
@@ -120,57 +120,78 @@
       </div>
       <!--end of row2-->
 
-      <!--row3-->
-      <div style="background-color: LightGray;" class="row">
-          <div class="row"><!--first row-->
-          <div col-4 class="bg-white" id="row3r1col1" width="200px">
-            <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-software.jpg" height=auto width="200px" >
-            <h2 class="font-weight-bold">Software Engineering</h2>
-            <h4>Courses</h4>
-            <h6>"Web development, Mobile development, IOT's, APIs"</h6>
-          </div>
-          <div col-4 class="bg-primary" id="row3r1col2" width="200px">
-            <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-computer-art.jpg" height=auto width="200px">
-            <h2 class="font-weight-bold">Computer art</h2>
-            <h4>Courses</h4>
-            <h6>Imaging & Design, Web Design, Motion graphics & Visual Effects, Computer Animation</h6>
-          </div>     
-          <div col-4 class="bg-white" id="row3r1col3">
-            <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-design.jpg" height=auto width="200px">
-            <h2 class="font-weight-bold">Design </h2>
-            <h4>Courses</h4>
-            <h6>User Experience Design, User Research, Visual Design</h6>
-          </div>
+      <!--container-->
+
+          <div style="background-color: hsl(0,0%,90%);" class="container-fluid">
+            
+              <div class="row">
+                  <div class="col">
+                  <h1 style="padding: 32px 0px" class="text-center font-weight-bold">Start learning</h1>
+                  </div>
+              </div>
+          <div class="row">      
+
+          <div style="padding: 0px 72px 32px 250px" class="row"><!--first row-->
+      
+            <div style="margin: 0px 32px 32px 0px" class="col-sm-3 col-md-3 bg-white">
+              <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-software.jpg" height=auto width="200px" >
+              <h3 class="font-weight-bold">Software Engineering</h3>
+              <h4>Courses</h4>
+              <h6>Web development, Mobile development, IOT's, APIs</h6>
+            </div>
+      
+            <div style="margin: 0px 32px 32px 0px" class="col-sm-3 col-md-3 bg-white">
+              <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-computer-art.jpg" height=auto width="200px">
+              <h3 class="font-weight-bold">Computer art</h3>
+              <h4>Courses</h4>
+              <h6>Imaging & Design, Web Design, Motion graphics & Visual Effects, Computer Animation</h6>
+            </div>     
+      
+            <div style="margin: 0px 0px 32px 0px" class="col-sm-3 col-md-3 bg-white">
+              <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-design.jpg" height=auto width="200px">
+              <h3 class="font-weight-bold">Design </h3>
+              <h4>Courses</h4>
+              <h6>User Experience Design, User Research, Visual Design</h6>
+            </div>
           </div><!--end first row-->
 
-          <div class="row"><!--sec row-->
-          <div col-4>
-            <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-software.jpg" height=auto width="300px">
-            <h2 class="font-weight-bold">Data</h2>
-            <h4>Courses</h4>
-            <h6>Data Science, Bigdata, SQL, Data Visualization</h6>
-          </div>
-          <div col-4>
-            <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-computer-art.jpg" height=auto width="300px">
-            <h2 class="font-weight-bold">Business</h2>
-            <h4>Courses</h4>
-            <h6>Product Development, Business Development, Startup</h6>
-          </div>     
-          <div col-4>
-            <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-design.jpg" height=auto width="300px">
-            <h2 class="font-weight-bold">Marketing</h2>
-            <h4>Courses</h4>
-            <h6>Analytics, Content Marketing, Mobile Marketing</h6>
-          </div>
+          <div style="padding: 0px 72px 32px 250px" class="row"><!--sec row-->
+      
+            <div style="margin: 0px 32px 32px 0px" class="col-sm-3 col-md-3 bg-white">
+              <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-data.jpg" height=auto width="200px">
+              <h3 class="font-weight-bold">Data</h3>
+              <h4>Courses</h4>
+              <h6>Data Science, Bigdata, SQL, Data Visualization</h6>
+            </div>
+            
+            <div style="margin: 0px 32px 32px 0px" class="col-sm-3 col-md-3 bg-white">
+              <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-business.jpg" height=auto width="200px">
+              <h3 class="font-weight-bold">Business</h2>
+              <h4>Courses</h4>
+              <h6>Product Development, Business Development, Startup</h6>
+            </div>     
+      
+            <div style="margin: 0px 0px 32px 0px" class="col-sm-3 col-md-3 bg-white">
+              <img  src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\course-marketing.jpg" height=auto width="200px">
+              <h3 class="font-weight-bold">Marketing</h3>
+              <h4>Courses</h4>
+              <h6>Analytics, Content Marketing, Mobile Marketing</h6>
+            </div>
           </div><!--end sec row-->
-      <div>
-      <!--end of row3-->      
+      </div>
+      </div>
+      <!--end of container-->      
 
         <!--row4 -->
+      <div class="container-fluid">  
+      <div class="row">
+                  <div class="col">
+                    <h1 style="padding-top: 60px" class="text-center font-weight-bold">Thesis exibit</h1>
+                  </div>
+      </div>      
       <div class="row" class="bg-white">
-
-        <div class="col-7">
-         <video controls width=750px height=500px  style="padding: 16px 24px 24px 24px">
+        <div class="col-sm-7 col-md-7">
+         <video controls width=750px height=500px  style="padding: 0px 24px 24px 24px">
             <source src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\videos\thesis.mp4" type="video/mp4">
          </video> 
         <h3  style="padding: 5px 24px 8px 24px">Reimagine urban</h3>
@@ -178,35 +199,35 @@
         </div>
 
 
-      <div  style="padding: 40px"class="col-5">
-        <div class="row bg-grey">
-            <div class="col-4">
-             <img  style="padding: 16px 16px 16px 16px" src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\thesis-fisma.jpg" height="200px" width="200px">
+      <div style="padding-top: 40px" class="col-sm-5 col-md-5">
+        <div style="background-color: hsl(0, 0%, 80%);" class="row">
+            <div class="col-sm-5 col-lg-4">
+             <img  style="padding: 16px" src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\thesis-fisma.jpg" height="200px" width="200px">
             </div>  
 
-            <div class="col-8">
+            <div style="padding: 60px 0px 0px 30px" class="col-sm-8 col-8">
               <h3>Fisma: Design and Prototype</h3>
               <h6>Designer showcase of new prototype product</h6>
             </div>
         </div>
 
-        <div  style="padding-top: 60px" class="row">
-            <div class="col-4">
-             <img  style="padding: 16px 16px 16px 16px" src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\thesis-now-and-then.jpg" height="200px" width="200px">
+        <div style="padding-top: 30px" class="row">
+            <div class="col-sm-8 col-8">
+             <img  style="padding: 16px" src="file://E:\My_projects\Colmaracademy\capstone_colmar_assets\images\thesis-now-and-then.jpg" height="200px" width="200px">
             </div>  
 
-            <div  style="padding-left: 16px" class="col-8">
+            <div  style="padding: 60px 0px 0px 30px" class="col-sm-8 col-8">
               <h3>Now and then</h3>
               <h6>Research study about New York</h6>
             </div>  
         </div>
 
       </div><!--end row4 -->
-
+    </div>
 
       </div>
   </div>
       <!--end of container -->
-  <footer><p>©2021 Colmar Academy. All rights reserved</p></footer>    
+  <footer style="padding-left: 24px;"><p><span>©2021 Colmar Academy. All rights reserved</span><span class="text-right">Terms</span></p></footer>    
 </body>
 </html>
